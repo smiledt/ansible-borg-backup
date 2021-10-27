@@ -1,0 +1,8 @@
+---
+
+# Main Generic Backup Role
+# Further specified in AWX
+
+- hosts: all
+  roles:
+  - role: m3nu.ansible_role_borgbackup
