@@ -4,5 +4,6 @@
 # Further specified in AWX
 
 - hosts: all
+  become: true
   roles:
   - role: m3nu.ansible_role_borgbackup
