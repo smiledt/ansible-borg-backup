@@ -6,4 +6,4 @@
 - hosts: all
   become: true
   roles:
-  - role: m3nu.ansible_role_borgbackup
+  - role: fiaasco.borgbackup
