@@ -3,7 +3,7 @@
 # Main Generic Backup Role
 # Further specified in AWX
 
-- hosts: all
+- hosts: linux
   become: true
   roles:
-  - role: fiaasco.borgbackup
+  - role: m3nu.ansible_role_borgbackup
